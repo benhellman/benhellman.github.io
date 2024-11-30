@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.8b84de9f.js",
-    "index.html": "/index.html",
-    "main.8b84de9f.js.map": "/static/js/main.8b84de9f.js.map"
+    "main.css": "/benhellman.github.io/static/css/main.4da3b2e9.css",
+    "main.js": "/benhellman.github.io/static/js/main.10e61bed.js",
+    "index.html": "/benhellman.github.io/index.html",
+    "main.4da3b2e9.css.map": "/benhellman.github.io/static/css/main.4da3b2e9.css.map",
+    "main.10e61bed.js.map": "/benhellman.github.io/static/js/main.10e61bed.js.map"
   },
   "entrypoints": [
-    "static/js/main.8b84de9f.js"
+    "static/css/main.4da3b2e9.css",
+    "static/js/main.10e61bed.js"
   ]
 }
