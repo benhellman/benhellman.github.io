@@ -38,7 +38,22 @@ body[data-theme="dark"] {
          color: white;
       }
    }
+    /* Add the navbar dark background styles here */
+    #navbar {
+      background-color: #333;  /* Dark background color for navbar */
+   }
 
+   #navbar a {
+      color: white; /* Make the links white for contrast */
+   }
+
+   #navbar .navbar-brand {
+      color: white; /* Optional: Set the brand/logo text color */
+   }
+
+   #navbar .navbar-toggler-icon {
+      background-color: white;  /* Optional: Make the hamburger menu icon white */
+   }
    #about {
       background-color: #7f7f7f;
       h1 span {

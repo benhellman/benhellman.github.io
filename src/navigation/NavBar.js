@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Switch from "react-switch";
 
+
 class NavBarImp extends Component {
     constructor() {
         super();
@@ -19,7 +20,7 @@ class NavBarImp extends Component {
         body.setAttribute(dataThemeAttribute, newTheme);
       }
     render() {
-        return   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        return   <nav id="navbar" class="navbar sticky-top navbar-expand-lg">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,33 +38,32 @@ class NavBarImp extends Component {
                 width={60}
                 height={20}
                 uncheckedIcon={
-                        <img src = "https://www.flaticon.com/free-icons/moon"></img>
-                //   <span
-                //     className="iconify"
-                //     data-icon="twemoji:owl"
-                //     data-inline="false"
-                //     style={{
-                //       display: "block",
-                //       height: "100%",
-                //       fontSize: 25,
-                //       textAlign: "end",
-                //       marginLeft: "20px",
-                //       color: "#353239",
-                //     }}
-                //   ></span>
+                  <span
+                    className="iconify"
+                    data-icon="tabler:moon-filled"
+                    data-inline="false"
+                    style={{
+                      display: "block",
+                      height: "90%",
+                      fontSize: 20,
+                      textAlign: "center",
+                      marginLeft: "0px",
+                      color: "#353239",
+                    }}
+                  ></span>
                 }
                 checkedIcon={
                   <span
                     className="iconify"
-                    data-icon="noto-v1:sun-with-face"
+                    data-icon="mingcute:sun-fill"
                     data-inline="false"
                     style={{
                       display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "10px",
-                      color: "#353239",
+                      height: "90%",
+                      fontSize: 20,
+                      textAlign: "center",
+                      marginLeft: "15px",
+                      color: "#FFFFFF",
                     }}
                   ></span>
                 }
