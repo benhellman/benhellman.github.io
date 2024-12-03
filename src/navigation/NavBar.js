@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Switch from "react-switch";
+import { Link } from "react-router-dom";
+
 
 
 class NavBarImp extends Component {
@@ -20,16 +22,17 @@ class NavBarImp extends Component {
         body.setAttribute(dataThemeAttribute, newTheme);
       }
     render() {
-        return   <nav id="navbar" class="navbar sticky-top navbar-expand-lg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Projects</a>
-        <a class="nav-item nav-link" href="#">Resume</a>
-        <Switch
+     
+        return <nav id="navbar" class="navbar fixed-top  d-flex flex-row">
+        <div>
+        <Link class="Link btn btn-outline-info my-auto mx-2" to="/">About Me</Link>
+        <Link class="Link btn btn-outline-info my-auto mx-2" to="/experience">Experience</Link>
+        <Link class="Link btn btn-outline-info my-auto mx-2" to="/resume">Resume</Link>
+        </div>
+       
+        
+        <div class="d-flex align-items-end mr5 p2" id="theme-switch">
+          <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
                 offColor="#ebf5fb"
@@ -69,10 +72,8 @@ class NavBarImp extends Component {
                 }
                 id="icon-switch"
               />
-        </div>
-        </div>
+              </div>
         </nav>
-
 }
 }
 
