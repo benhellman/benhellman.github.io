@@ -384,15 +384,15 @@ main {
   background-repeat: no-repeat;
 }
 .bullet-edu::before {
-  background-image: url("icons/gt.svg");
+  background-image: url("icons/gt.png");
 }
 
 .bullet-work::before {
-  background-image: url("icons/carmax.svg");
+  background-image: url("icons/carmax.png");
 }
 
 .bullet-security::before {
-  background-image: url("icons/cybersec.svg");
+  background-image: url("icons/cybersec.png");
 }
 
 @media (max-width: 600px) {
