@@ -363,13 +363,14 @@ main {
 }
 .about__list {
   list-style: none;
-  padding-left: 0;
+  padding-left: 0 !important; 
+  margin-left: 0 !important;   
   margin-top: 1rem;
 }
 
 .about__list li {
   position: relative;
-  padding-left: 10rem !important; 
+  padding-left: 10rem; 
   margin-bottom: 1.5rem;  
   line-height: 1.6;
   min-height: 60px; 
