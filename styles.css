@@ -326,9 +326,10 @@ main {
 .project__image {
   width: 60px;
   height: 60px; 
-  object-fit: cover;  
-  border-radius: 8px;  
-  margin-bottom: 1em;
+  object-fit: contain;  
+
+  margin: 0 auto 1em auto;  
+  display: block;
 }
 
 .project:hover .project__image {
