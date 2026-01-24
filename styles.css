@@ -323,6 +323,18 @@ main {
   margin-left: 0.5em;
 }
 
+.project__image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;  
+  border-radius: 8px;  
+  margin-bottom: 1em;
+}
+
+.project:hover .project__image {
+  opacity: 0.9;
+}
+
 .skills__list {
   max-width: 450px;
   width: 95%;
