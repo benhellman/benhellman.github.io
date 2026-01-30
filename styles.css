@@ -429,8 +429,8 @@ main {
 }
 
 .bullet-edu::before,
-.bullet-work::before,
-.bullet-security::before {
+.bullet-work::before
+{
   content: "";
   position: absolute;
   left: 0;
@@ -451,7 +451,7 @@ main {
 }
 
 .bullet-security::before {
-  content: "\f023"; /* Unicode for fa-lock */
+  content: "\f023"; /* Unicode for fa-lock */ 
   position: absolute;
   left: 0;
   top: 0;
