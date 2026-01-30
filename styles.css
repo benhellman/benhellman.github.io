@@ -32,6 +32,7 @@ body {
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
+  --clr-secondary: #7bb3db;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -41,8 +42,9 @@ body {
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
+  --clr-secondary:  #c7b0df;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    rgba(28, 12, 12, 0.06) 0px 0px 0px 1px;
 }
 
 ::-moz-selection {
@@ -208,15 +210,15 @@ button {
   font-weight: 500;
   font-size: 0.9rem;
   transition: transform 0.2s ease-in-out;
-  background-color: var(--clr-primary) !important;
-  color: var(--clr-bg--alt);
-  border: 2px solid var(--clr-primary);
+  background-color: var(--clr-secondary) !important;
+  color: var(--clr-bg-alt);
+  border: 2px solid var(--clr-secondary);
 }
 
 .btn--filled:hover,
 .btn--filled:focus {
   transform: translateY(-4px);
-  background-color: var(--clr-primary) !important;
+  background-color: var(--clr-secondary) !important;
   color: var(--clr-bg-alt);
 }
 /*========
@@ -229,7 +231,10 @@ button {
 }
 .left {
   display: flex;
-  align-items: left;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 2rem; /* Adjust this value for padding from the edge */
 }
 .header {
   height: 8em;
@@ -446,7 +451,19 @@ main {
 }
 
 .bullet-security::before {
-  background-image: url("icons/cybersec.png");
+  content: "\f023"; /* Unicode for fa-lock */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 40px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-fg); /* This will automatically switch with light/dark mode */
 }
 
 @media (max-width: 600px) {
