@@ -208,16 +208,16 @@ button {
   font-weight: 500;
   font-size: 0.9rem;
   transition: transform 0.2s ease-in-out;
-  background-color: var(--clr-primary);
-  color: var(--clr-bg);
+  background-color: var(--clr-primary) !important;
+  color: var(--clr-bg--alt);
   border: 2px solid var(--clr-primary);
 }
 
 .btn--filled:hover,
 .btn--filled:focus {
   transform: translateY(-4px);
-  background-color: var(--clr-primary);
-  color: var(--clr-bg);
+  background-color: var(--clr-primary) !important;
+  color: var(--clr-bg-alt);
 }
 /*========
   layout
@@ -227,7 +227,10 @@ button {
   display: flex;
   align-items: center;
 }
-
+.left {
+  display: flex;
+  align-items: left;
+}
 .header {
   height: 8em;
   max-width: 1100px;
