@@ -233,7 +233,7 @@ button {
  display: flex;
   align-items: center;
   gap: 1rem;
-  flex-direction: row; /* Ensure horizontal layout */
+  flex-direction: row !important; /* Ensure horizontal layout */
 }
 .header {
   height: 8em;
@@ -241,6 +241,7 @@ button {
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+  
 }
 
 main {
