@@ -230,11 +230,10 @@ button {
   align-items: center;
 }
 .left {
-  display: flex;
+ display: flex;
   align-items: center;
   gap: 1rem;
-  position: absolute;
-  left: 2rem; /* Adjust this value for padding from the edge */
+  flex-direction: row; /* Ensure horizontal layout */
 }
 .header {
   height: 8em;
