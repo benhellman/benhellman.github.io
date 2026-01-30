@@ -229,19 +229,19 @@ button {
   display: flex;
   align-items: center;
 }
-.left {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  position: absolute;
-  left: 2rem; /* Adjust this value for padding from the edge */
-}
 .header {
   height: 8em;
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
+  display: flex;
   justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 main {
