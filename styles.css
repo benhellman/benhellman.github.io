@@ -389,10 +389,10 @@ main {
 }
 
 .document__image {
-  width: 300px !important;
-  height: 110px !important; 
-  max-width: 300px !important;
-  max-height: 110px !important;
+  width: 500px !important;
+  height: 183px !important; 
+  max-width: 500px !important;
+  max-height: 183px !important;
   object-fit: contain;  
 
   margin: 0 auto 1em auto;  
