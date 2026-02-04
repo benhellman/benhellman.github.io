@@ -349,6 +349,8 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  grid-column: 1 / -1; 
+
 }
 
 .project:hover {
@@ -387,14 +389,7 @@ main {
   margin: 0 auto 1em auto;  
   display: block;
 }
-.project--wide {
-  padding: 2em;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: var(--shadow);
-  transition: transform 0.2s linear;
-  grid-column: 1 / -1; /* Span full width */
-}
+
 .document__image {
   width: 100%;
   max-width: 800px;
