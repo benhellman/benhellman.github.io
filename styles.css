@@ -403,10 +403,10 @@ main {
   margin: 1em auto;
   display: block;
 }
-.project:hover .project__image {
-  opacity: 0.9;
+.project:hover,
+.project--wide:hover {
+  transform: none;
 }
-
 .skills__list {
   max-width: 450px;
   width: 95%;
