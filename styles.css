@@ -388,6 +388,16 @@ main {
   display: block;
 }
 
+.document__image {
+  width: 300px !important;
+  height: 110px !important; 
+  max-width: 300px !important;
+  max-height: 110px !important;
+  object-fit: contain;  
+
+  margin: 0 auto 1em auto;  
+  display: block;
+}
 .project:hover .project__image {
   opacity: 0.9;
 }
