@@ -387,15 +387,15 @@ main {
   margin: 0 auto 1em auto;  
   display: block;
 }
-
+.project--wide {
+  grid-column: 1 / -1; /* Span full width */
+}
 .document__image {
-  width: 100% !important;
-  height: auto !important; 
-  max-width: 100% !important;
-  max-height: none !important;
-  object-fit: contain;  
-
-  margin: 0 auto 1em auto;  
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  object-fit: contain;
+  margin: 1em auto;
   display: block;
 }
 .project:hover .project__image {
