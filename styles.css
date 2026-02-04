@@ -354,9 +354,6 @@ main {
 
 }
 
-.project:hover {
-  transform: translateY(-7px);
-}
 
 .project__description {
   margin-top: 1em;
@@ -401,6 +398,7 @@ main {
 .document__image {
   width: 100%;
   max-width: 800px;
+  height : auto;
   max-height: 400px; 
   object-fit: contain;
   margin: 1em auto;
