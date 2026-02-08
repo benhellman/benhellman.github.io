@@ -349,8 +349,6 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   max-width: 1100px;
-  grid-column: 1 / -1; 
-
 }
 
 
