@@ -396,9 +396,9 @@ main {
 }
 .document__image {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   height : auto;
-  max-height: 300px; 
+  max-height: 200px; 
   object-fit: contain;
   margin: 1em auto;
   display: block;
