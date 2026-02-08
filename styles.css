@@ -339,11 +339,13 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   grid-gap: 2em;
 }
 
 .project {
+  max-width: 500px;
+
   padding: 2em;
   margin: 0 auto;
   text-align: center;
@@ -384,7 +386,7 @@ main {
   margin: 0 auto 1em auto;  
   display: block;
 }
-.document__image {
+/* .document__image {
   width: 100%;
   max-width: 400px;
   height : auto;
@@ -392,7 +394,7 @@ main {
   object-fit: contain;
   margin: 1em auto;
   display: block;
-}
+} */
 .project:hover,
 .project--wide:hover {
   transform: none;
